@@ -1,0 +1,6 @@
+[16-Jan-2019 02:53:43 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/ubuntu/workspace/includes/mail.php on line 18
+[16-Jan-2019 02:54:07 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/ubuntu/workspace/includes/mail.php on line 18
+[16-Jan-2019 21:47:29 UTC] PHP Warning:  mail() expects at least 3 parameters, 1 given in /home/ubuntu/workspace/includes/mail.php on line 30
+[16-Jan-2019 21:47:29 UTC] PHP Stack trace:
+[16-Jan-2019 21:47:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/mail.php:0
+[16-Jan-2019 21:47:29 UTC] PHP   2. mail() /home/ubuntu/workspace/includes/mail.php:30

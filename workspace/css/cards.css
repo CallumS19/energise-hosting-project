@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background: url(), linear-gradient(90deg, #e63845, #bb121f);
+    margin: 0;
+    padding: 0;
+}
+
+/* Contact Form */
+
+.contact-form {
+    margin: 0 auto;
+    text-align: center;
+    width: 400px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password], textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+label {
+    float: left;
+}
+
+/* Set a style for all buttons */
+button {
+  background: linear-gradient(90deg, #e63845, #bb121f);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+/* Style the counter cards */
+.card {
+  padding: 5px;
+  text-align: center;
+  background-color: #f1f1f1;
+  height: 500px;
+  line-height: 3px;
+}
+
+
+.card-top {
+    position: relative;
+    text-align: center;
+    height: 100px;
+    background-color: #e63845;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-top > h2 {
+    text-transform: uppercase;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
