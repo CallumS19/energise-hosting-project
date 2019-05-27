@@ -210,15 +210,12 @@ nav .list a {
     grid-template-columns: 300px 300px 300px;
     grid-template-rows: 300px 300px;
     grid-gap: 200px;
-    margin: 0 auto;
     text-align: center;
 }
 
 .features .f-card {
   background-color: transparent;
   width: 100%;
-  max-width: 300px;
-  height: 300px;
   perspective: 1000px;
 }
 
@@ -275,6 +272,23 @@ nav .list a {
     }
 }
 
+@media (max-width: 1000px) {
+    nav .container {
+        max-width: 90%;
+    }
+    nav .list {
+        text-align: center;
+    }
+    nav .list a {
+        font-size: 14px;
+    }
+
+    nav .logo {
+        width: 40px;
+        height: 40px;
+    }
+}
+
 @media(min-width: 1191px) and (max-width: 1830px) {
     .pricing .container {
         flex-wrap: wrap;
@@ -291,15 +305,5 @@ nav .list a {
     }
     .pricing .card:nth-child(3) {
         transform: translateY(0px);
-    }
-}
-
-@media (max-width: 1000px) {
-    nav .container {
-        max-width: 90%;
-        flex-direction: column;
-    }
-    nav .list {
-        margin: 10px 0 4px 0;
     }
 }
