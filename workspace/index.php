@@ -224,11 +224,11 @@
             </section>
             
             <section class="features">
-                <div class="container">
+                <div class="f-container">
                     <div class="f-card">
                       <div class="f-card-inner">
                         <div class="f-card-front">
-                          <img src="img/feature_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+                          <img src="img/f_HighPerf.png" alt="Avatar" style="width:300px;height:300px;">
                         </div>
                         <div class="f-card-back">
                           <h1>High Performance</h1> 
@@ -239,7 +239,7 @@
                     <div class="f-card">
                       <div class="f-card-inner">
                         <div class="f-card-front">
-                          <img src="img/feature_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+                          <img src="img/f_UpTime.png" alt="Avatar" style="width:300px;height:300px;">
                         </div>
                         <div class="f-card-back">
                           <h1>99.99% Uptime</h1> 
@@ -295,5 +295,7 @@
             </section>
             <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
             <script type="text/javascript" src="js/onScroll.js"></script>
+
+            <!--<a class="hidden" href="https://www.vecteezy.com">Vector Illustration by Vecteezy!</a> -->
     </body>
 </html>

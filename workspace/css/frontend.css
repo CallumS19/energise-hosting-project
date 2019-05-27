@@ -205,13 +205,13 @@ nav .list a {
     justify-content: center;
 }
 
-.features .container {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 1350px;
+.features .f-container {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px;
+    grid-gap: 200px;
     margin: 0 auto;
-    flex-wrap: wrap;
+    text-align: center;
 }
 
 .features .f-card {
@@ -220,7 +220,6 @@ nav .list a {
   max-width: 300px;
   height: 300px;
   perspective: 1000px;
-  margin: 0 100px;
 }
 
 .features .f-card-inner {
